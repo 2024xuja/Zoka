@@ -5,7 +5,7 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 function Navbar() {
   return (
     <div className='flex items-center justify-evenly pt-5'>
-        <h1 className="font-bold">ZOKA</h1>
+        <h1 className="font-bold size-36px">ZOKA</h1>
           
        <ul className="flex items-center gap-8">
           <Link to={Navbar}>Home</Link>
