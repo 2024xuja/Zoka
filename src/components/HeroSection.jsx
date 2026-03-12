@@ -19,31 +19,18 @@ export default function HeroSection() {
           Get in Touch{" "}
         </button>
       </div>
-      <div>
+      <div className="m-25px">
         <img
           src={Camera1}
           alt="Camera rasmi"
           className="w-680px h-400px mb-5"
         />
-        <div className="flex mb-">
-          <img src={Camera2} alt="Bizning rasm" className="w-279px h-250px " />
-          <img src={Camera3} alt="Qiz" className="w-380px h-250px  pl-5.25" />
+        <div className="flex">
+          <img src={Camera2} alt="Bizning rasm" className="w-279px h-250px mb-25" />
+          <img src={Camera3} alt="Qiz" className="w-380px h-250px  pl-5.25 mb-25" />
         </div>
       </div>
-      <div className="">
-        <h1 className="flex ">GET TO KNOW US</h1>
-        <h1>
-          Why we make it <br /> happens
-        </h1>
-        <p className="flex">
-          Your ceremony & reception venues, your <br /> vision, your dress, your
-          colours and anything <br /> else you would like.
-        </p>
-         <button className="relative p-3.5 px-12  bg-[#3F41A6] rounded-full text-white font-medium shadow-2xl cursor-pointer ">
-          Get in Touch{" "}
-        </button>
-        <input type="button" value="" /> 
-      </div>
+
     </section>
   );
 }
