@@ -1,3 +1,4 @@
+import Choose from "./components/Choose"
 import Happens from "./components/Happens"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
@@ -7,7 +8,8 @@ function App() {
     <>
       <Navbar /> 
       <HeroSection/>
-      <Happens /> 
+      <Happens />
+      <Choose /> 
     </>
   )
 }

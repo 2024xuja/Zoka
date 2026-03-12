@@ -10,7 +10,7 @@ function Happens() {
         <div>
            <img src={KattaGul} alt="KattaGul" className='w-59 h-114.75 flex shadow-2xs mr-19'/>
       </div>
-      <div>         
+      <div className=''>         
         <h1 className="flex text-[20px] font-semibold text-[#3F41A6] gap-2 ">GET TO KNOW US</h1>
         <h1 className="text-2xl font-bold font-serif mb-5"> 
           Why we make it <br /> happens
