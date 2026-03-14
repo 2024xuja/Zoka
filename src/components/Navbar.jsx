@@ -13,7 +13,7 @@ function Navbar() {
           <Link className="font-bold">Photograpy</Link>
           <Link className="font-bold">Photoshoots</Link>
        </ul>
-       <button className="flex border-4 w-36.5 h-57px rounded-3xl text-[#3F41A6] items-center justify-center  font-extrabold ">Youtube <IoMdArrowDroprightCircle size={20}/></button>
+       <button className="flex border-4 w-36.5 h-57px rounded-3xl text-[#3F41A6] items-center justify-center  font-extrabold cursor-pointer">Youtube <IoMdArrowDroprightCircle size={20}/></button>
     </div>
     
   )

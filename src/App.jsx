@@ -3,6 +3,7 @@ import Happens from "./components/Happens"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
+import Slayder from "./components/Slayder"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Happens />
       <Choose /> 
       <Projects />
+      <Slayder/>
     </>
   )
 }
